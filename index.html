@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACubeBincorporative</title>
+    <link rel="stylesheet" type="text" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+    margin:0px;
+    padding:0px;
+    background: url('images/bg1.jpg');
+}
+.left img{
+    width: 100px;
+    padding-left: 24px;
+}
+.left div {
+    line-height: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.left{
+    display:inline-block;
+    /* border:2px solid red; */
+    position:absolute;
+    left: 34px;
+    top:18px;
+}
+.mid{
+    display:block;
+    border:2px solid rgb(119, 119, 119);
+    width:36%;
+    margin:20px auto;
+    border-radius:30px;
+}
+.right{
+    display:inline-block;
+    /* border:2px solid yellow; */
+    position:absolute;
+    right:34px;
+    top:20px;
+    padding:8px;
+}
+.nav{
+    display: inline-block;
+}
+.nav li{
+    display: inline-block;
+    font-size:17px;
+}
+.nav li a{
+    font-weight:bold;
+    color:white;
+    text-decoration: none;
+    padding:34px 20px;
+}
+.nav li a:hover,.nav li a:active{
+    text-decoration: none;
+    color:rgb(115, 115, 115);
+}
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2px 9px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    padding: 12px 14px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(115, 115, 115);
+}
+.container {
+    border: 2px solid white;
+    margin: 106px auto;
+    padding: 40px;
+    width: 33%;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+.form-group input {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 4px;
+    border: 2px solid rgb(238, 236, 236);
+    margin: 18px auto;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    Color: rgb(55, 55, 55);
+}
+
+.container h1 {
+    text-align: center;
+    font-size:25px;
+    padding-bottom:5px;
+}
+
+.container button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+</style>
+<body>
+   <header class=""header>
+        <div class="left">
+            <img src="images/Logo_hatch.png">
+            <div>A3B Incorporative</div>
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Feed Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+   </header>
+   <div class="container">
+    <h1>Get the best Chicks from us</h1>
+    <form >
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+</body>
+</html>
